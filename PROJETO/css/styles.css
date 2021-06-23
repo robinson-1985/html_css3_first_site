@@ -266,6 +266,10 @@ footer .detail {
 
     /* navbar */
     #navbar h2 {
+        display: none;
+    }
+
+    #navbar img {
         top: 9px;
     }
 
@@ -303,20 +307,20 @@ footer .detail {
         width: 90%;
     }
 
-    #skill-section .container {
+    #skills-section .container {
         flex-direction: column;
     }
 
-    .skilss-container h3, .skilss-container .subtitle {
+    .skills-container h3, .skills-container .subtitle {
         font-size: 1.3rem;
 
     }
 
-    .skilss-container {
+    .skills-container {
         padding: 25px;
     }
 
-    .skilss-container .central{
+    .skils-container .central{
         border-top: 1px solid #ccc;
         border-bottom: 1px solid #ccc;
     }
@@ -353,9 +357,5 @@ footer .detail {
     }
 
     @media(max: width 350px){
-        
     }
-
-
-
 }
